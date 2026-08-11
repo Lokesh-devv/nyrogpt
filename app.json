@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "VeeGPT",
-    "slug": "VeeGPT",
+    "name": "NyroGPT",
+    "slug": "NyroGPT",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "usesCleartextTraffic": true,
+      "edgeToEdgeEnabled": true,
+      "package": "com.vlokesh.NyroGPT"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-audio",
+      "expo-asset"
+    ]
   }
 }
